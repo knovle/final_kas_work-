@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ConcludingCheerfulApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cheer_purple</item>
+        <item name="colorPrimaryVariant">@color/cheer_light_purple</item>
+        <item name="colorOnPrimary">@color/cheer_yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cheer_indigo</item>
+        <item name="colorSecondaryVariant">@color/cheer_light_indigo</item>
+        <item name="colorOnSecondary">@color/cheer_light_yellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textViewStyle">@style/Theme.ConcludingCheerful</item>
+        <item name="android:buttonStyle">@style/Theme.MainCheerfulFont.Button</item>
+
+    </style>
+
+    <style name="Theme.ConcludingCheerful" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Theme.ItalicCheerfulFont.TextView" parent="Widget.MaterialComponents.TextView">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   on                          t" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">italic</item>
+      </style>
+
+    <style name="Theme.MainCheerfulFont.TextView" parent="Widget.MaterialComponents.TextView">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   on                          t" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.MainCheerfulFont.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/cheer_yellow</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>

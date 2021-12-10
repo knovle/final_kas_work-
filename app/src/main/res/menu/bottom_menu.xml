@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gruntle"
+        android:enabled="true"
+        android:icon="@drawable/picture_min"
+        android:title="Настроение"/>
+    <item
+        android:id="@+id/about"
+        android:enabled="true"
+        android:icon="@drawable/info_min"
+        android:title="info" />
+</menu>

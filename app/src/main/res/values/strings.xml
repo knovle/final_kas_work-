@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Concluding Cheerful App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Салют!</string>
+    <string name="flower_text">У тебя цветущий вид</string>
+    <string name="images_author_title">Автор изображений:</string>
+    <string name="images_author">Freepik</string>
+    <string name="images">Изображения:</string>
+</resources>
